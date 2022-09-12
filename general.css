@@ -4,7 +4,7 @@
     url("/Fonts/GemoshHeadline-Regular.woff") format("woff"),
     url("/Fonts/GemoshHeadline-Regular.ttf") format("truetype");
 }
-@media only screen and (min-device-width: 320px) and (max-device-width: 768px) {
+@media (max-width: 768px) {
   /* HEADER */
   header {
     display: flex;
@@ -73,7 +73,7 @@
     filter: brightness(0) invert(1);
   }
 }
-@media only screen and (min-device-width: 769px) and (max-device-width: 1200px) {
+@media (max-width: 1200px) {
   /* HEADER */
   header {
     display: flex;
