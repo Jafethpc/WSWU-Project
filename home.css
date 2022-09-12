@@ -1,0 +1,249 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+@media only screen and (min-device-width: 320px) and (max-device-width: 768px) {
+  body {
+    background-color: rgb(1, 90, 185);
+  }
+  .section-1,
+  .section-2,
+  .section-3,
+  .section-4 {
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+  }
+  .section-1 {
+    height: 101vh;
+  }
+  .sunflower-logo {
+    height: 100vh;
+    width: 100vw;
+    object-fit: cover;
+  }
+  .section-2 {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 50px;
+  }
+  .section-2 .left {
+    display: flex;
+    justify-content: center;
+    height: 50%;
+    width: 100vw;
+    margin-bottom: 30px;
+  }
+  .ukraine-protest {
+    border-style: none;
+    border-radius: 20px;
+    object-fit: cover;
+    width: 90%;
+    height: 100%;
+  }
+  .section-2 .right {
+    height: 50%;
+  }
+  .right .title {
+    text-align: center;
+    font-family: GemoshHeadline-Regular;
+    font-size: 27vw;
+    color: rgb(253, 215, 0);
+  }
+  .section-2 .right .description {
+    text-align: center;
+    font-family: Montserrat;
+    line-height: 1.9em;
+    font-size: 5vw;
+    padding: 20px;
+    color: white;
+  }
+  .mountains {
+    width: 100%;
+    margin-bottom: -10px;
+  }
+  .section-3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 60px 0 30px 0;
+    background-color: white;
+  }
+  .section-3 .ukraine-heart {
+    width: 80vw;
+  }
+  .section-3 .description {
+    text-align: center;
+    font-family: Montserrat;
+    line-height: 1.9em;
+    font-size: 5vw;
+    margin: 20px 0;
+  }
+  .section-3 .donate-btn {
+    background-color: rgb(253, 215, 0);
+    border-style: none;
+    border-radius: 5px;
+    font-family: GemoshHeadline-Regular;
+    font-size: 15vw;
+    padding: 15px 60px 0 60px;
+    color: rgb(1, 90, 185);
+  }
+  .section-4 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 0 0 30px 0;
+    background-color: white;
+  }
+  .section-4 section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .team {
+    width: 100%;
+    margin: 50px 0 20px 0;
+  }
+  .section-4 section .description {
+    text-align: center;
+    font-family: Montserrat;
+    line-height: 1.9em;
+    font-size: 5vw;
+    margin: 0 0 20px 0;
+  }
+  .team-btn {
+    background-color: rgb(253, 215, 0);
+    border-style: none;
+    border-radius: 5px;
+    font-family: GemoshHeadline-Regular;
+    padding: 15px 0 0 0;
+    width: 80%;
+    font-size: 15vw;
+    color: rgb(1, 90, 185);
+  }
+}
+@media only screen and (min-device-width: 769px) and (max-device-width: 1200px) {
+  body {
+    background-color: rgb(1, 90, 185);
+  }
+  .section-1,
+  .section-2,
+  .section-3,
+  .section-4 {
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+  }
+  .section-1 {
+    height: 101vh;
+  }
+  .sunflower-logo {
+    height: 100vh;
+    width: 100vw;
+    object-fit: cover;
+  }
+  .section-2 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 80px;
+  }
+  .section-2 .left {
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+  }
+  .ukraine-protest {
+    border-style: none;
+    border-radius: 20px;
+    object-fit: cover;
+    width: 85%;
+    height: 100%;
+  }
+  .section-2 .right {
+    height: 50%;
+    width: 100%;
+  }
+  .right .title {
+    text-align: center;
+    font-family: GemoshHeadline-Regular;
+    font-size: 14vw;
+    margin-right: 5%;
+    color: rgb(253, 215, 0);
+  }
+  .section-2 .right .description {
+    text-align: center;
+    font-family: Montserrat;
+    line-height: 1.9em;
+    font-size: 2.5vw;
+    margin-right: 5%;
+    padding: 20px;
+    color: white;
+  }
+  .mountains {
+    width: 100%;
+    margin-bottom: -10px;
+  }
+  .section-3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 60px 0 30px 0;
+    background-color: white;
+  }
+  .section-3 .ukraine-heart {
+    width: 40vw;
+  }
+  .section-3 .description {
+    text-align: center;
+    font-family: Montserrat;
+    line-height: 1.9em;
+    padding: 0 10%;
+    font-size: 2.5vw;
+    margin: 20px 0;
+  }
+  .section-3 .donate-btn {
+    background-color: rgb(253, 215, 0);
+    border-style: none;
+    border-radius: 5px;
+    font-family: GemoshHeadline-Regular;
+    font-size: 10vw;
+    padding: 10px 60px 0 60px;
+    color: rgb(1, 90, 185);
+  }
+  .section-4 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 0 0 30px 0;
+    background-color: white;
+  }
+  .section-4 section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .team {
+    width: 55%;
+    margin: 50px 0 20px 0;
+  }
+  .section-4 section .description {
+    text-align: center;
+    font-family: Montserrat;
+    line-height: 1.9em;
+    font-size: 2.5vw;
+    padding: 0 10%;
+    margin: 0 0 20px 0;
+  }
+  .team-btn {
+    background-color: rgb(253, 215, 0);
+    border-style: none;
+    border-radius: 5px;
+    font-family: GemoshHeadline-Regular;
+    padding: 15px 0 0 0;
+    width: 60%;
+    font-size: 10vw;
+    color: rgb(1, 90, 185);
+  }
+}
