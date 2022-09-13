@@ -6,149 +6,135 @@
   body {
     background-color: rgb(1, 90, 185);
   }
-  .section-1,
-  .section-2,
-  .section-3,
-  .section-4 {
-    display: flex;
-    justify-content: center;
-    width: 100vw;
-  }
-  .section-1 {
-    height: 101vh;
+  .section1 {
+    width: 100%;
   }
   .sunflower-logo {
-    height: 100vh;
-    width: 100vw;
+    width: 100%;
+    height: 101vh;
     object-fit: cover;
   }
-  .section-2 {
+  .section2 {
     display: flex;
     flex-direction: column;
     margin-bottom: 50px;
   }
-  .section-2 .left {
+  .section2 .left {
     display: flex;
     justify-content: center;
-    height: 50%;
-    width: 100vw;
+    height: 100%;
     margin-bottom: 30px;
   }
   .ukraine-protest {
     border-style: none;
     border-radius: 20px;
     object-fit: cover;
+    object-position: bottom;
     width: 90%;
+    height: 40vh;
+  }
+  .section2 .right {
     height: 100%;
   }
-  .section-2 .right {
-    height: 50%;
-  }
-  .right .title {
+  .section2 .right .title {
     text-align: center;
     font-family: GemoshHeadline-Regular;
-    font-size: 27vw;
+    font-size: 18vw;
     color: rgb(253, 215, 0);
   }
-  .section-2 .right .description {
+  .section2 .right .description {
     text-align: center;
     font-family: Montserrat;
     line-height: 1.9em;
-    font-size: 5vw;
+    font-size: 3vw;
     padding: 20px;
     color: white;
+    margin: 0;
   }
   .mountains {
     width: 100%;
     margin-bottom: -10px;
   }
-  .section-3 {
+  .section3 {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 60px 0 30px 0;
     background-color: white;
   }
-  .section-3 .ukraine-heart {
-    width: 80vw;
+  .section3 .ukraine-heart {
+    margin-top: 70px;
+    width: 50vw;
   }
-  .section-3 .description {
+  .section3 .description {
     text-align: center;
     font-family: Montserrat;
     line-height: 1.9em;
-    font-size: 5vw;
+    font-size: 3vw;
     margin: 20px 0;
+    width: 70vw;
   }
-  .section-3 .donate-btn {
+  .section3 .donate-btn {
     background-color: rgb(253, 215, 0);
     border-style: none;
     border-radius: 5px;
     font-family: GemoshHeadline-Regular;
-    font-size: 15vw;
+    font-size: 10vw;
     padding: 15px 60px 0 60px;
     color: rgb(1, 90, 185);
   }
-  .section-4 {
+  .section4 {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    padding: 0 0 30px 0;
+    padding: 0 0 60px 0;
     background-color: white;
   }
-  .section-4 section {
+  .section4 section {
     display: flex;
     flex-direction: column;
     align-items: center;
   }
-  .team {
-    width: 100%;
+  .section4 .team {
+    width: 80vw;
     margin: 50px 0 20px 0;
   }
-  .section-4 section .description {
+  .section4 section .description {
     text-align: center;
     font-family: Montserrat;
     line-height: 1.9em;
-    font-size: 5vw;
+    font-size: 3vw;
     margin: 0 0 20px 0;
+    width: 70vw;
   }
   .team-btn {
     background-color: rgb(253, 215, 0);
     border-style: none;
     border-radius: 5px;
     font-family: GemoshHeadline-Regular;
-    padding: 15px 0 0 0;
-    width: 80%;
-    font-size: 15vw;
+    padding: 15px 60px 0 60px;
+    font-size: 10vw;
     color: rgb(1, 90, 185);
   }
 }
-@media (max-width: 1200px) {
+@media (min-width: 769px) and (max-width: 1200px) {
   body {
     background-color: rgb(1, 90, 185);
   }
-  .section-1,
-  .section-2,
-  .section-3,
-  .section-4 {
-    display: flex;
-    justify-content: center;
-    width: 100vw;
-  }
-  .section-1 {
-    height: 101vh;
+  .section1 {
+    height: 100%;
   }
   .sunflower-logo {
-    height: 100vh;
-    width: 100vw;
+    width: 100%;
+    height: 101vh;
     object-fit: cover;
   }
-  .section-2 {
+  .section2 {
     display: flex;
     flex-direction: row;
     align-items: center;
     margin-bottom: 80px;
   }
-  .section-2 .left {
+  .section2 .left {
     display: flex;
     justify-content: center;
     height: 100%;
@@ -161,7 +147,7 @@
     width: 85%;
     height: 100%;
   }
-  .section-2 .right {
+  .section2 .right {
     height: 50%;
     width: 100%;
   }
@@ -172,7 +158,7 @@
     margin-right: 5%;
     color: rgb(253, 215, 0);
   }
-  .section-2 .right .description {
+  .section2 .right .description {
     text-align: center;
     font-family: Montserrat;
     line-height: 1.9em;
@@ -185,25 +171,25 @@
     width: 100%;
     margin-bottom: -10px;
   }
-  .section-3 {
+  .section3 {
     display: flex;
     flex-direction: column;
     align-items: center;
     padding: 60px 0 30px 0;
     background-color: white;
   }
-  .section-3 .ukraine-heart {
+  .section3 .ukraine-heart {
     width: 40vw;
   }
-  .section-3 .description {
+  .section3 .description {
     text-align: center;
     font-family: Montserrat;
     line-height: 1.9em;
-    padding: 0 10%;
+    width: 80%;
     font-size: 2.5vw;
     margin: 20px 0;
   }
-  .section-3 .donate-btn {
+  .section3 .donate-btn {
     background-color: rgb(253, 215, 0);
     border-style: none;
     border-radius: 5px;
@@ -212,14 +198,14 @@
     padding: 10px 60px 0 60px;
     color: rgb(1, 90, 185);
   }
-  .section-4 {
+  .section4 {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     padding: 0 0 30px 0;
     background-color: white;
   }
-  .section-4 section {
+  .section4 section {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -228,12 +214,12 @@
     width: 55%;
     margin: 50px 0 20px 0;
   }
-  .section-4 section .description {
+  .section4 section .description {
     text-align: center;
     font-family: Montserrat;
     line-height: 1.9em;
     font-size: 2.5vw;
-    padding: 0 10%;
+    width: 80%;
     margin: 0 0 20px 0;
   }
   .team-btn {
@@ -244,6 +230,124 @@
     padding: 15px 0 0 0;
     width: 60%;
     font-size: 10vw;
+    color: rgb(1, 90, 185);
+  }
+}
+@media (min-width: 1201px) {
+  body {
+    background-color: rgb(1, 90, 185);
+  }
+  .section1 {
+    height: 100vh;
+  }
+  .sunflower-logo {
+    width: 100%;
+    height: 101vh;
+    object-fit: contain;
+  }
+  .section2 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 50px 0 100px 0;
+  }
+  .section2 .left {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+  }
+  .ukraine-protest {
+    border-style: none;
+    border-radius: 20px;
+    object-fit: cover;
+    object-position: bottom;
+    width: 85%;
+    height: 70vh;
+  }
+  .section2 .right {
+    height: 100%;
+    width: 100%;
+  }
+  .right .title {
+    text-align: center;
+    font-family: GemoshHeadline-Regular;
+    font-size: 1000%;
+    margin-right: 5%;
+    color: rgb(253, 215, 0);
+  }
+  .section2 .right .description {
+    text-align: center;
+    font-family: Montserrat;
+    line-height: 1.9em;
+    font-size: 170%;
+    margin-right: 5%;
+    padding: 20px;
+    color: white;
+  }
+  .mountains {
+    width: 100%;
+    margin-bottom: -10px;
+  }
+  .section3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 60px 0 30px 0;
+    background-color: white;
+  }
+  .section3 .ukraine-heart {
+    width: 30%;
+  }
+  .section3 .description {
+    text-align: center;
+    font-family: Montserrat;
+    line-height: 1.9em;
+    width: 70%;
+    font-size: 170%;
+    margin: 30px 0;
+  }
+  .section3 .donate-btn {
+    background-color: rgb(253, 215, 0);
+    border-style: none;
+    border-radius: 5px;
+    font-family: GemoshHeadline-Regular;
+    font-size: 600%;
+    padding: 10px 60px 0 60px;
+    color: rgb(1, 90, 185);
+  }
+  .section4 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 0 0 5% 0;
+    background-color: white;
+  }
+  .section4 section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .team {
+    width: 55%;
+    margin: 50px 0 20px 0;
+  }
+  .section4 section .description {
+    text-align: center;
+    font-family: Montserrat;
+    line-height: 1.9em;
+    font-size: 170%;
+    width: 70%;
+    margin: 0 0 20px 0;
+  }
+  .team-btn {
+    background-color: rgb(253, 215, 0);
+    border-style: none;
+    border-radius: 5px;
+    font-family: GemoshHeadline-Regular;
+    padding: 15px 40px 0 40px;
+    font-size: 600%;
     color: rgb(1, 90, 185);
   }
 }
