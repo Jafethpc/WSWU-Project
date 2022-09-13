@@ -88,6 +88,7 @@
     font-family: GemoshHeadline-Regular;
     font-size: 10vw;
     color: rgb(1, 90, 185);
+    cursor: pointer;
   }
   .footer-links {
     display: flex;
@@ -211,6 +212,7 @@
     font-family: GemoshHeadline-Regular;
     font-size: 6vw;
     color: rgb(1, 90, 185);
+    cursor: pointer;
   }
   .footer-links {
     display: flex;
@@ -334,6 +336,7 @@
     font-family: GemoshHeadline-Regular;
     font-size: 6vw;
     color: rgb(1, 90, 185);
+    cursor: pointer;
   }
   .footer-links {
     display: flex;
