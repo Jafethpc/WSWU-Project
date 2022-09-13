@@ -4,6 +4,9 @@
     url("/Fonts/GemoshHeadline-Regular.woff") format("woff"),
     url("/Fonts/GemoshHeadline-Regular.ttf") format("truetype");
 }
+a {
+  text-decoration: none;
+}
 @media (max-width: 768px) {
   /* HEADER */
   header {
