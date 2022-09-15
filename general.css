@@ -18,7 +18,7 @@ a {
     left: 0;
     top: 0;
     right: 0;
-    height: 100px;
+    height: 80px;
     background-color: rgb(253, 215, 0);
   }
   .menu {
@@ -87,9 +87,9 @@ a {
     padding: 15px 30px;
     background-color: rgb(253, 215, 0);
   }
-  footer p {
+  footer a {
     font-family: GemoshHeadline-Regular;
-    font-size: 10vw;
+    font-size: 300%;
     color: rgb(1, 90, 185);
     cursor: pointer;
   }
@@ -123,7 +123,7 @@ a {
     left: 0;
     top: 0;
     right: 0;
-    height: 100px;
+    height: 80px;
     background-color: rgb(253, 215, 0);
   }
   .left-sec,
@@ -211,9 +211,9 @@ a {
     padding: 15px 30px;
     background-color: rgb(253, 215, 0);
   }
-  footer p {
+  footer a {
     font-family: GemoshHeadline-Regular;
-    font-size: 6vw;
+    font-size: 250%;
     color: rgb(1, 90, 185);
     cursor: pointer;
   }
@@ -247,7 +247,7 @@ a {
     left: 0;
     top: 0;
     right: 0;
-    height: 100px;
+    height: 80px;
     background-color: rgb(253, 215, 0);
   }
   .left-sec,
@@ -335,9 +335,9 @@ a {
     padding: 15px 30px;
     background-color: rgb(253, 215, 0);
   }
-  footer p {
+  footer a {
     font-family: GemoshHeadline-Regular;
-    font-size: 6vw;
+    font-size: 250%;
     color: rgb(1, 90, 185);
     cursor: pointer;
   }
