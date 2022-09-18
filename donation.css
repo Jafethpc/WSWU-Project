@@ -252,4 +252,8 @@ h1 {
     .form-container h1 {
         text-align: center;
     }
+
+    .sm-icon {
+        display: none;
+    }
 }
