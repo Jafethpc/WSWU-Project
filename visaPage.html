@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Donations Page</title>
+    <link rel="stylesheet" href="donation.css" type="text/css" />
+    <!-- CSS -->
+    <link rel="stylesheet" href="/general.css" />
+    <link rel="stylesheet" href="/home.css" />
+
+    <!-- FONTS -->
+
+    <link rel="preload" href="Boiling-BlackDemo.ttf" as="font" type="font/ttf" crossorigin />
+    <link rel="preload" href="GemoshExtrude-Regular.ttf" as="font" type="font/ttf" crossorigin />
+
+</head>
+
+<body class="form-body">
+    <!-- HEADER -->
+    <header>
+        <!-- MENU IMAGE -->
+        <section class="left-sec">
+            <section class="menu">
+                <img class="menu-icon" src="/Images/General/menu-icon.png" />
+                <section class="dropdown-content">
+                    <a href="/home.html">Home</a>
+                    <a>Programs</a>
+                    <a href="/donation.html">Donate</a>
+                    <a>About Us</a>
+                    <a>Contact Us</a>
+                </section>
+            </section>
+        </section>
+        <!-- HEADER LOGO -->
+        <section class="mid-sec">
+            <img class="logo-icon" src="/Images/General/logo-icon.png" />
+        </section>
+        <!-- SOCIAL MEDIA ICON -->
+        <section class="sm-icon">
+            <img src="/Images/General/twitter-icon.png" />
+            <img src="/Images/General/instagram-icon.png" />
+            <img src="/Images/General/facebook-icon.png" />
+        </section>
+    </header>
+    <form action="thankYouPage.html">
+        <div class="container">
+
+            <h1 class="header">Your details</h1>
+
+            <ul class="flex-outer">
+                <li>
+                    <label for="first-name">First Name on Card:</label>
+                    <input type="text" id="first-name" placeholder="Enter your first name here" required>
+                </li>
+
+                <li>
+                    <label for="last-name">Last Name on Card:</label>
+                    <input type="text" id="last-name" placeholder="Enter your last name here" required>
+                </li>
+
+                <li>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" placeholder="name@gmail.com">
+                </li>
+
+                <li>
+                    <label for="phone">Phone:</label>
+                    <input type="tel" id="phone" placeholder="000-000-0000">
+                </li>
+
+                <li>
+                    <label for="cardNumber">Card Number:</label>
+                    <input placeholder="Card Number*" data-mask="9999 9999 9999 9?999" aria-invalid="true"
+                        required="required">
+                </li>
+
+                <li>
+                    <label for="exMonth" class="sr-only">Month:</label>
+                    <select id="month" name="month" placeholder="Month*" aria-invalid="true" required>
+                        <option value="" selected="selected" hidden="" disabled="">Month*</option>
+                        <option label="01 (Jan)" value="number:1">01 (Jan)</option>
+                        <option label="02 (Feb)" value="number:2">02 (Feb)</option>
+                        <option label="03 (Mar)" value="number:3">03 (Mar)</option>
+                        <option label="04 (Apr)" value="number:4">04 (Apr)</option>
+                        <option label="05 (May)" value="number:5">05 (May)</option>
+                        <option label="06 (June)" value="number:6">06 (June)</option>
+                        <option label="07 (July)" value="number:7">07 (July)</option>
+                        <option label="08 (Aug)" value="number:8">08 (Aug)</option>
+                        <option label="09 (Sept)" value="number:9">09 (Sept)</option>
+                        <option label="10 (Oct)" value="number:10">10 (Oct)</option>
+                        <option label="11 (Nov)" value="number:11">11 (Nov)</option>
+                        <option label="12 (Dec)" value="number:12">12 (Dec)</option>
+                    </select>
+                </li>
+
+                <li>
+                    <label for="year">Year:</label>
+                    <select id="year" name="year" placeholder="Year*" aria-invalid="true" required="required">
+                        <option value="" hidden="" disabled="" selected="selected">Year*</option>
+                        <option label="2022" value="2022">2022</option>
+                        <option label="2023" value="2023">2023</option>
+                        <option label="2024" value="2024">2024</option>
+                        <option label="2025" value="2025">2025</option>
+                        <option label="2026" value="2026">2026</option>
+                        <option label="2027" value="2027">2027</option>
+                        <option label="2028" value="2028">2028</option>
+                        <option label="2029" value="2029">2029</option>
+                        <option label="2030" value="2030">2030</option>
+                        <option label="2031" value="2031">2031</option>
+                        <option label="2032" value="2032">2032</option>
+                        <option label="2033" value="2033">2033</option>
+                        <option label="2034" value="2034">2034</option>
+                        <option label="2035" value="2035">2035</option>
+                        <option label="2036" value="2036">2036</option>
+                        <option label="2037" value="2037">2037</option>
+                        <option label="2038" value="2038">2038</option>
+                        <option label="2039" value="2039">2039</option>
+                        <option label="2040" value="2040">2040</option>
+                        <option label="2041" value="2041">2041</option>
+                    </select>
+                </li>
+
+                <li>
+                    <label for="securityCode">Card Security Code:</label>
+                    <input type="tel" id="securityCode" name="securityCode" placeholder="Card Security Code*"
+                        aria-invalid="true" required="required">
+
+                </li>
+
+                <li>
+                    <button type="submit">Submit</button>
+                </li>
+            </ul>
+    </form>
+    </div>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <section class="footer-links">
+            <p>About Us</p>
+            <p>Programs</p>
+            <p><a href="/donation.html">Donate</a></p>
+            <p>Contact Us</p>
+        </section>
+        <!-- FOOTER SOCIAL MEDIA ICON -->
+        <section class="footer-sm-icon">
+            <img src="/Images/General/twitter-icon.png" />
+            <img src="/Images/General/instagram-icon.png" />
+            <img src="/Images/General/facebook-icon.png" />
+        </section>
+    </footer>
+</body>
+
+</html>
