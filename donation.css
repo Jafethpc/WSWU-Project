@@ -1,0 +1,210 @@
+@font-face {
+    font-family: "GemoshHeadline-Regular";
+    src: url("/Fonts/GemoshHeadline-Regular.woff2") format("woff2"),
+        url("/Fonts/GemoshHeadline-Regular.woff") format("woff"),
+        url("/Fonts/GemoshHeadline-Regular.ttf") format("truetype");
+}
+
+body {
+    height: 100vh;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(6, 73, 145);
+}
+
+.donations-page {
+    display: flex;
+    height: 100%;
+    font-family: Montserrat;
+    margin-top: 100px;
+}
+
+h1,
+h2 {
+    font-family: GemoshHeadline-Regular;
+}
+
+h1 {
+    margin-bottom: 35px;
+}
+
+.donation-info {
+    width: 700px;
+    background-color: rgb(1, 90, 185);
+    padding-top: 50px;
+    padding-right: 30px;
+    padding-bottom: 50px;
+    padding-left: 80px;
+}
+
+.donation-content {
+    margin: 40px 0;
+}
+
+.donation-content span {
+    display: block;
+}
+
+.form-container {
+    background-color: white;
+    padding-top: 50px;
+    padding-right: 30px;
+    padding-bottom: 50px;
+    padding-left: 80px;
+    font-size: x-large;
+    color: rgb(6, 73, 145);
+}
+
+.lock-icon {
+    width: 20px;
+    height: 20px;
+}
+
+.payment-heading {
+    display: inline;
+}
+
+.payment-container {
+    margin-top: 60px;
+}
+
+.payment-buttons {
+    margin-top: 20px;
+}
+
+.bird {
+    width: 400px;
+    height: 400px;
+    border: 5px solid rgb(85, 85, 85);
+}
+
+.yellow {
+    background-color: white;
+}
+
+.thank-you-page {
+    padding-top: 160px;
+    padding-bottom: 100px;
+    text-align: center;
+    margin: 0 auto;
+    width: 50%;
+    color: rgb(6, 73, 145);
+    font-size: 26px;
+}
+
+.hands {
+    width: 450px;
+    height: 300px;
+}
+
+.donation-info {
+    color: white;
+    font-size: x-large;
+}
+
+.form-item {
+    padding: 10px;
+    width: 300px;
+}
+
+.form-select {
+    padding: 10px;
+}
+
+.form-container label {
+    display: block;
+    padding-bottom: 10px;
+}
+
+.form-label {
+    margin: 20px 0;
+}
+
+.donation-button {
+    padding: 12px 22px;
+    border-radius: 7px;
+    margin-bottom: 20px;
+}
+
+
+
+.form-body {
+    font: normal 18px/1.5 "Fira Sans", "Helvetica Neue", sans-serif;
+    background-color: rgb(1, 90, 185);
+    color: #fff;
+    padding: 50px 0;
+}
+
+.container {
+    width: 80%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 80px;
+}
+
+.container {
+    box-sizing: border-box;
+}
+
+.flex-outer {
+    list-style-type: none;
+    padding: 0;
+}
+
+.flex-outer {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.flex-outer li {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.flex-outer>li:not(:last-child) {
+    margin-bottom: 20px;
+}
+
+.flex-outer li label,
+.flex-outer li p {
+    padding: 8px;
+    font-weight: 300;
+}
+
+.flex-outer>li>label,
+.flex-outer li p {
+    flex: 1 0 120px;
+    max-width: 220px;
+}
+
+.flex-outer>li>label+* {
+    flex: 1 0 220px;
+}
+
+.flex-outer li p {
+    margin: 0;
+}
+
+.flex-outer li input:not([type='checkbox']),
+.flex-outer li textarea,
+.flex-outer li select {
+    padding: 15px;
+    border: none;
+}
+
+.flex-outer li button {
+    margin-left: auto;
+    padding: 8px 16px;
+    border: none;
+    background: #333;
+    color: #f2f2f2;
+    border-radius: 2px;
+}
+
+.header {
+    text-align: center;
+}
