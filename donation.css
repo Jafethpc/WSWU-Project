@@ -20,7 +20,6 @@ a {
     height: 100%;
     font-family: Montserrat;
     margin-top: 80px;
-    font-family: Montserrat;
 }
 
 h1,
@@ -82,7 +81,7 @@ h1 {
     border: 5px solid rgb(85, 85, 85);
 }
 
-.yellow {
+.bg-white {
     background-color: white;
 }
 
@@ -162,7 +161,6 @@ h1 {
 
 .flex-outer li {
     display: flex;
-    flex-wrap: wrap;
     align-items: center;
 }
 
@@ -170,14 +168,12 @@ h1 {
     margin-bottom: 20px;
 }
 
-.flex-outer li label,
-.flex-outer li p {
+.flex-outer li label {
     padding: 8px;
     font-weight: 300;
 }
 
-.flex-outer>li>label,
-.flex-outer li p {
+.flex-outer>li>label {
     flex: 1 0 120px;
     max-width: 220px;
 }
@@ -186,12 +182,7 @@ h1 {
     flex: 1 0 220px;
 }
 
-.flex-outer li p {
-    margin: 0;
-}
-
 .flex-outer li input:not([type='checkbox']),
-.flex-outer li textarea,
 .flex-outer li select {
     padding: 15px;
     border: none;
@@ -201,7 +192,7 @@ h1 {
     margin-left: auto;
     padding: 8px 16px;
     border: none;
-    background: #333;
+    background-color: #333;
     color: #f2f2f2;
     border-radius: 2px;
 }
