@@ -1,10 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Donations Page</title>
     <link rel="stylesheet" href="donation.css" type="text/css" />
     <link rel="stylesheet" href="/general.css" />
@@ -12,115 +11,144 @@
 
     <!-- FONTS -->
 
-    <link rel="preload" href="Boiling-BlackDemo.ttf" as="font" type="font/ttf" crossorigin />
-    <link rel="preload" href="GemoshExtrude-Regular.ttf" as="font" type="font/ttf" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
-</head>
+    <link
+      rel="preload"
+      href="Boiling-BlackDemo.ttf"
+      as="font"
+      type="font/ttf"
+      crossorigin
+    />
+    <link
+      rel="preload"
+      href="GemoshExtrude-Regular.ttf"
+      as="font"
+      type="font/ttf"
+      crossorigin
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap"
+      rel="stylesheet"
+    />
+  </head>
 
-<body>
+  <body>
     <!-- HEADER -->
     <header>
-        <!-- MENU IMAGE -->
-        <section class="left-sec">
-            <section class="menu">
-                <img class="menu-icon" src="/Images/General/menu-icon.png" />
-                <section class="dropdown-content">
-                    <a href="/home.html">Home</a>
-                    <a>Programs</a>
-                    <a href="/donation.html">Donate</a>
-                    <a>About Us</a>
-                    <a>Contact Us</a>
-                </section>
-            </section>
+      <!-- MENU IMAGE -->
+      <section class="left-sec">
+        <section class="menu">
+          <img class="menu-icon" src="/Images/General/menu-icon.png" />
+          <section class="dropdown-content">
+            <a href="/home.html">Home</a>
+            <a href="/programs.html">Programs</a>
+            <a href="/donation.html">Donate</a>
+            <a href="/team.html">About Us</a>
+            <a href="/contact.html">Contact Us</a>
+          </section>
         </section>
-        <!-- HEADER LOGO -->
-        <section class="mid-sec">
-            <img class="logo-icon" src="/Images/General/logo-icon.png" />
-        </section>
-        <!-- SOCIAL MEDIA ICON -->
-        <section class="sm-icon">
-            <img src="/Images/General/twitter-icon.png" />
-            <img src="/Images/General/instagram-icon.png" />
-            <img src="/Images/General/facebook-icon.png" />
-        </section>
+      </section>
+      <!-- HEADER LOGO -->
+      <section class="mid-sec">
+        <img class="logo-icon" src="/Images/General/logo-icon.png" />
+      </section>
+      <!-- SOCIAL MEDIA ICON -->
+      <section class="sm-icon">
+        <img src="/Images/General/twitter-icon.png" />
+        <img src="/Images/General/instagram-icon.png" />
+        <img src="/Images/General/facebook-icon.png" />
+      </section>
     </header>
 
     <div class="donations-page">
-        <div class="donation-info">
-            <img class="hands" src="together-we-care.png" alt="Hands held together" />
-            <p class="donation-content">
-                <span>TOGETHER, WE CARE.</span>
-                Here’s where you come in,
-                your passion for helping others is the perfect solution for our problem, we need people who are
-                motivated
-                to give back to those in need. Our vision of helping people in Ukraine will require time, effort, and
-                resources. Having people like you in our corner is what’s going to get us there.
-                With every donation, all of us are closer to creating a better life for people in Ukraine. Stand with
-                us, stand with Ukraine.
-            </p>
+      <div class="donation-info">
+        <img
+          class="hands"
+          src="together-we-care.png"
+          alt="Hands held together"
+        />
+        <p class="donation-content">
+          <span>TOGETHER, WE CARE.</span>
+          Here’s where you come in, your passion for helping others is the
+          perfect solution for our problem, we need people who are motivated to
+          give back to those in need. Our vision of helping people in Ukraine
+          will require time, effort, and resources. Having people like you in
+          our corner is what’s going to get us there. With every donation, all
+          of us are closer to creating a better life for people in Ukraine.
+          Stand with us, stand with Ukraine.
+        </p>
+      </div>
+
+      <div class="form-container">
+        <div>
+          <h1>Donate Here</h1>
         </div>
+        <form action="#payment">
+          <label for="currency">Currency Type:</label>
+          <select id="currency" class="form-select" name="currency">
+            <option value="usd">USD $</option>
+            <option value="eur">EUR €</option>
+            <option value="jpy">JPY ¥</option>
+            <option value="chf">CHF Fr.</option>
+          </select>
 
-        <div class="form-container">
-            <div>
-                <h1>Donate Here</h1>
-            </div>
-            <form action="#payment">
-                <label for="currency">Currency Type:</label>
-                <select id="currency" class="form-select" name="currency">
-                    <option value="usd">USD $</option>
-                    <option value="eur">EUR €</option>
-                    <option value="jpy">JPY ¥</option>
-                    <option value="chf">CHF Fr.</option>
-                </select>
+          <div class="form-label">
+            <label for="amount">How much would you like to donate?</label>
+            <input
+              class="form-item"
+              type="number"
+              id="amount"
+              name="amount"
+              placeholder="Enter amount:"
+            />
+          </div>
+        </form>
 
-                <div class="form-label">
-                    <label for="amount">How much would you like to donate?</label>
-                    <input class="form-item" type="number" id="amount" name="amount" placeholder="Enter amount:">
-                </div>
-            </form>
+        <div class="payment-container" id="payment">
+          <h2 class="payment-heading">Choose Payment</h2>
 
-            <div class="payment-container" id="payment">
-                <h2 class="payment-heading">Choose Payment</h2>
+          <span>
+            <img class="lock-icon" src="lock-icon.png" alt="Lock" />
+            secure
+          </span>
 
-                <span>
-                    <img class="lock-icon" src="lock-icon.png" alt="Lock" />
-                    secure
-                </span>
+          <div class="payment-buttons">
+            <button class="donation-button" type="button">
+              <a href="visaPage.html">VISA</a>
+            </button>
 
-                <div class="payment-buttons">
-                    <button class="donation-button" type="button">
-                        <a href="visaPage.html">VISA</a>
-                    </button>
+            <button class="donation-button" type="button">
+              <a
+                target="_blank"
+                href="https://www.paypal.com/checkoutnow?locale.x=en_US&fundingSource=paypal&sessionID=uid_b36b86f3b2_mdm6mju6ntg&buttonSessionID=uid_464f4c4da7_mdm6mjy6mda&env=production&fundingOffered=paypal&logLevel=warn&sdkMeta=eyJ1cmwiOiJodHRwczovL3d3dy5wYXlwYWxvYmplY3RzLmNvbS9hcGkvY2hlY2tvdXQubWluLmpzIn0&uid=1a9880a489&version=min&token=EC-23838170BG262370H&xcomponent=1"
+                >PayPal</a
+              >
+            </button>
+          </div>
 
-                    <button class="donation-button" type="button">
-                        <a target="_blank"
-                            href="https://www.paypal.com/checkoutnow?locale.x=en_US&fundingSource=paypal&sessionID=uid_b36b86f3b2_mdm6mju6ntg&buttonSessionID=uid_464f4c4da7_mdm6mjy6mda&env=production&fundingOffered=paypal&logLevel=warn&sdkMeta=eyJ1cmwiOiJodHRwczovL3d3dy5wYXlwYWxvYmplY3RzLmNvbS9hcGkvY2hlY2tvdXQubWluLmpzIn0&uid=1a9880a489&version=min&token=EC-23838170BG262370H&xcomponent=1">PayPal</a>
-                    </button>
-                </div>
-
-                <p>WSWU is committed to your privacy. Your payment details will be processed by our team, a PayPal
-                    company (for credit/debit cards) or VISA, and a record of your donation will be stored by WSWU.
-                </p>
-            </div>
+          <p>
+            WSWU is committed to your privacy. Your payment details will be
+            processed by our team, a PayPal company (for credit/debit cards) or
+            VISA, and a record of your donation will be stored by WSWU.
+          </p>
         </div>
+      </div>
     </div>
 
     <!-- FOOTER -->
     <footer class="footer">
-        <section class="footer-links">
-            <a href="/home.html">Home</a>
-            <a>Programs</a>
-            <a href="/donation.html">Donate</a>
-            <a href="/team.html">About Us</a>
-            <a>Contact Us</a>
-        </section>
-        <!-- FOOTER SOCIAL MEDIA ICON -->
-        <section class="footer-sm-icon">
-            <img src="/Images/General/twitter-icon.png" />
-            <img src="/Images/General/instagram-icon.png" />
-            <img src="/Images/General/facebook-icon.png" />
-        </section>
+      <section class="footer-links">
+        <a href="/home.html">Home</a>
+        <a>Programs</a>
+        <a href="/donation.html">Donate</a>
+        <a href="/team.html">About Us</a>
+        <a>Contact Us</a>
+      </section>
+      <!-- FOOTER SOCIAL MEDIA ICON -->
+      <section class="footer-sm-icon">
+        <img src="/Images/General/twitter-icon.png" />
+        <img src="/Images/General/instagram-icon.png" />
+        <img src="/Images/General/facebook-icon.png" />
+      </section>
     </footer>
-</body>
-
+  </body>
 </html>
